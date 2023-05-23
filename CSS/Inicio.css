@@ -200,10 +200,15 @@ footer li{
     color: yellow;
 }
 
-.imgredes{
-    width: 40px;
-    margin-top: 15px; 
+.Telemento-footerERedes li svg{
+   margin-top: 5px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    color: rgb(219, 171, 13);
 }
+
+
 .Redesh5{
     margin-bottom: 10px;
 }
