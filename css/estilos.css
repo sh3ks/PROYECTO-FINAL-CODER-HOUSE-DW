@@ -246,6 +246,38 @@ footer li{
     }
 }
 
+@media (max-width:320px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+    .wrap-footer{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .columna-1{ 
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width:320px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+    .wrap-footer{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .columna-1{ 
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
     
     
 
