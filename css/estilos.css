@@ -10,7 +10,7 @@ body {
 
 /*Customizacion del encabezado de pagina*/
 .nav-link {
-    text-decoration: none;
+    text-decoration: none !important;
     color: rgb(236, 240, 10) !important;
     margin-right: 10px !important;
 }
@@ -26,23 +26,23 @@ header {
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+    display: flex !important;
+    align-items: center !important;
 }
 
 .logo img {
-    height: 90px;
-    margin-right: 10px;
+    height: 90px !important;
+    margin-right: 10px !important;
 }
 
 nav a {
-    font-weight: 600px;
+    font-weight: 600px !important;
     padding-right: 10px !important;
 
 }
 
 nav a:hover {
-    color: aliceblue;
+    color: aliceblue !important;
 }
 
 /*Customizacion de la "page" "index"*/
