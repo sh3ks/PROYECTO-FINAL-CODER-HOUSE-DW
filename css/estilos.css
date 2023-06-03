@@ -4,7 +4,7 @@ html{
 
 
 body  { 
-    background-image: url(../ASESTS/IMAGENES/Fondo.jpg);
+    background-image: url(../assets/imagenes/fondo.jpg);
     margin: 0;
     background-size: 1720px;    
     }
