@@ -42,10 +42,10 @@ nav a{
 nav a:hover{
     color: aliceblue;
 }
-/*Customizacion de la "PAGE" "Nuestras empanadas"*/
+/*Customizacion de la "page" "index"*/
 .neon{
     font-size: 30px;
-    font-weight: 10px;
+    font-weight: 100;
     color: #fff;
     text-shadow: 0 0 5px #f4dc03,
     0 0 25px #f4d003, 
@@ -65,23 +65,20 @@ nav a:hover{
     margin: 50px;
     margin-top: 10px;
     color: rgb(255, 255, 255);
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 400px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     font-size: 25px;
     border-width: 15px;
     border-style: ridge;
     border-color: rgb(251, 255, 0);
-    width: 50%;
+    width: 60%;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.719);
     border-radius: 120px;
   }
-  .HRINICIO{
-    width: 500px;
-    height: 2px;
-    border: none; 
-}
 
+  
 /*Customizacion de la "PAGE" "Nuestras empanadas"*/
 menu{   
     padding: 0px;
@@ -165,12 +162,13 @@ menu{
     font-size: 20px;
     
 }
-hr{
-    background-color: yellow;
-    width: 300px;
-    height: 2px;
-    border: none;
+.precio-menu{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 40px;
 }
+
 /*Footer/Redes*/
 
 footer{
@@ -228,7 +226,62 @@ footer li{
     .columna-1{ 
         grid-template-columns: repeat(2,1fr);
     }
+    .neon{
+        padding: 10px 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 26px;  
+    }
+    .texto1{
+        padding: 0px 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+    .texto-bienvenida{
+        margin-bottom: 50px;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 60px;
+    }
+    .Nuestras-empanadas{
+        padding: 10px 0px;
+        margin-left: 100px;
+        margin-right: 10px;
+        font-size: 40px;  
+    }
+    .Menú{
+        padding: 10px;
+        margin-left: 280px;
+        font-size: 50px;
+    }
+    .menu-empanadas{
+        width: 88%;
+        margin-left: 20px;
+    }
+    .Parrafo1{
+        width: 80%;
+        margin-left: 70px;
+        margin-right: 40px;
+
+    }
+    .texto-nuestras-empandas{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        
+    }
+    .precio-menu{
+        margin-bottom: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 40px;
+    }
+    
 }
+
 
 @media (max-width:480px){
     header{
@@ -244,8 +297,55 @@ footer li{
     .columna-1{ 
         grid-template-columns: repeat(1,1fr);
     }
-}
+    .neon{
+        padding: 10px 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 26px;  
+    }
+    .texto1{
+        padding: 0px 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+    .texto-bienvenida{
+        margin-bottom: 50px;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 60px;
+    }
+    .Nuestras-empanadas{
+        padding: 10px 0px;
+        margin-left: 70px;
+        margin-right: 10px;
+        font-size: 40px;  
+    }
+    .Menú{
+        padding: 10px;
+        margin-left: 130px;
+        font-size: 50px;
+    }
+    .menu-empanadas{
+        width: 80%;
+        margin-left: 20px;
+    }
+    .Parrafo1{
+        width: 80%;
+        margin-left: 20px;
+        margin-right: 20px;
 
+    }
+    .texto-nuestras-empandas{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        
+    }
+}
+    
 @media (max-width:320px){
     header{
         flex-direction: column;
@@ -254,28 +354,61 @@ footer li{
         padding: 10px 0px;
     }
     .wrap-footer{
-        grid-template-columns: repeat(2,1fr);
-
-    }
-    .columna-1{ 
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-
-@media (max-width:320px){
-    header{
-        flex-direction: column;
-    }
-    nav{
-        padding: 10px 0px;
-    }
-    .wrap-footer{
-        grid-template-columns: repeat(2,1fr);
-
-    }
-    .columna-1{ 
         grid-template-columns: repeat(1,1fr);
+
     }
+    .columna-1{
+        grid-template-columns: repeat(0,1fr);
+        
+    }
+    .menu-empanadas{
+        width: 80%;
+        margin-left: 20px;
+    }
+    .neon{
+        padding: 10px 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 16px;  
+    }
+    .texto1{
+        padding: 0px 0px;
+        margin-left:  20px;
+        margin-right: 20px;
+        font-size: 20px;
+        width: 80%;
+    }
+    .texto-bienvenida{
+        margin-left: 40px;
+        margin-right: 35px;
+        margin-bottom: 20px;
+    }
+    
+    .Nuestras-empanadas{
+        padding: 10px 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 40px;  
+    }
+    .Menú{
+        padding: 10px;
+        margin-left: 80px;
+        font-size: 50px;
+
+    }
+    .Parrafo1{
+        width: 80%;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+    .texto-nuestras-empandas{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        
+    }
+    
 }
 
     
