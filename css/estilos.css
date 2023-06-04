@@ -121,7 +121,7 @@ menu {
     font-size: 20px;
 }
 
-.Menu {
+.Menu1 {
     font-size: 50px;
     font-weight: 10px;
     color: #fff;
@@ -295,10 +295,10 @@ footer li {
         font-size: 40px;
     }
 
-    .Menú {
+    .Menu1 {
         padding: 10px;
         margin-left: 280px;
-        font-size: 50px;
+        font-size: 400px;
     }
 
     .menu-empanadas {
@@ -378,7 +378,7 @@ footer li {
         font-size: 40px;
     }
 
-    .Menú {
+    .Menu1 {
         padding: 10px;
         margin-left: 130px;
         font-size: 50px;
@@ -456,9 +456,9 @@ footer li {
         font-size: 40px;
     }
 
-    .Menú {
+    .Menu1 {
         padding: 10px;
-        margin-left: 80px;
+        margin-left: 50px;
         font-size: 50px;
 
     }
