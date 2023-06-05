@@ -177,7 +177,7 @@ menu {
 
 /*Customizacion de la "page" "dano-tu-opinion"*/
 .comentario-1 {
-    margin: 20px 0px;
+    margin: 20px;
     margin-left: 400px;
 }
 
@@ -371,6 +371,10 @@ footer li {
         margin-right: 20px;
         font-size: 40px;
     }
+    .comentario-1{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
 }
 
@@ -447,6 +451,11 @@ footer li {
         margin-right: 30px;
 
     }
+    .comentario-1{
+        margin-right: 0;
+        margin-left: 0;    
+    }
+
 }
 
 @media (max-width:320px) {
@@ -521,8 +530,10 @@ footer li {
         margin-right: 30px;
 
     }
-    .contenedor-1{
-        
+    .comentario-1{
+        margin-right: 0;
+        margin-left: 0;    
     }
+    
 
 }
