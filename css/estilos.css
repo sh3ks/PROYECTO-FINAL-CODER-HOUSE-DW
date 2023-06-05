@@ -13,6 +13,7 @@ body {
     text-decoration: none !important;
     color: rgb(236, 240, 10) !important;
     margin-right: 10px !important;
+    
 }
 
 header {
@@ -38,11 +39,16 @@ header {
 nav a {
     font-weight: 600px !important;
     padding-right: 10px !important;
+    
 
 }
 
 nav a:hover {
     color: aliceblue !important;
+    
+}
+nav{
+    display: flex
 }
 
 /*Customizacion de la "page" "index"*/
