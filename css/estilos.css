@@ -90,7 +90,7 @@ menu {
 
 
 .Nuestras-empanadas {
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 10px;
     color: #fff;
     text-shadow: 0 0 5px #f8d303,
@@ -102,7 +102,7 @@ menu {
     text-transform: uppercase;
     margin-bottom: 50px;
     margin-right: 50px;
-    margin-left: 350px;
+    margin-left: 480px;
 }
 
 
@@ -122,7 +122,7 @@ menu {
 }
 
 .Menu1 {
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 10px;
     color: #fff;
     text-shadow: 0 0 5px #f4dc03,
@@ -133,7 +133,7 @@ menu {
     cursor: auto;
     text-transform: uppercase;
     margin-bottom: 100px;
-    margin-left: 600px;
+    margin-left: 550px;
 
 }
 
@@ -175,12 +175,10 @@ menu {
     font-size: 40px;
 }
 
-/*Customizacion de la "page" "Nuestras empanadas"*/
+/*Customizacion de la "page" "dano-tu-opinion"*/
 .comentario-1 {
     margin: 20px 0px;
-    margin-right: 600px;
-    margin-left: 30px;
-
+    margin-left: 400px;
 }
 
 .form_comentarios textarea {
@@ -198,6 +196,53 @@ menu {
 
 }
 
+.form_comentarios .btn {
+    background: #4b65d1;
+    border-radius: 0;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.form_comentarios .btn:hover {
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, .35);
+}
+
+.form_comentarios {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+.media{
+    border-top: 1px solid #bfbfbf;
+    padding-top: 20px;
+}
+.media img{
+    margin-right: 20px;
+}
+.media .nombre span{
+    font-size: 12px;
+    color: #464646;
+    margin-left: 10px;
+}
+.media .nombre {
+    color: #4b65d1;
+    margin-bottom: 0;
+}
+.media{
+    background-color: #f7f7f798;
+}
+.media .ComentarioJM{
+    margin-top: 10px;
+}
+.media .botones{
+    margin-bottom: 10px;
+}
+.media .botones a{
+    color: #210af5;
+    font-size: 14px;
+    margin-left: 20px;
+
+}
 /*Footer/Redes*/
 
 footer {
@@ -292,13 +337,13 @@ footer li {
         padding: 10px 0px;
         margin-left: 100px;
         margin-right: 10px;
-        font-size: 40px;
+        font-size: 80px;
     }
 
     .Menu1 {
         padding: 10px;
-        margin-left: 280px;
-        font-size: 400px;
+        margin-left: 240px;
+        font-size: 80px;
     }
 
     .menu-empanadas {
@@ -340,7 +385,7 @@ footer li {
     }
 
     .wrap-footer {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
 
     }
 
@@ -432,7 +477,7 @@ footer li {
         padding: 10px 0px;
         margin-left: 10px;
         margin-right: 10px;
-        font-size: 16px;
+        font-size: 30px;
     }
 
     .texto1 {
@@ -475,6 +520,9 @@ footer li {
         margin-left: 30px;
         margin-right: 30px;
 
+    }
+    .contenedor-1{
+        
     }
 
 }
