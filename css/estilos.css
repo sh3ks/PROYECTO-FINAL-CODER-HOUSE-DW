@@ -2,6 +2,7 @@ html {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* Ajuste del background de la pagina*/
 body {
     background-image: url(../assets/imagenes/fondo.jpg);
     margin: 0;
@@ -10,35 +11,38 @@ body {
 
 /*Customizacion del encabezado de pagina*/
 .nav-link {
-    text-decoration: none !important;
-    color: rgb(236, 240, 10) !important;
-    margin-right: 10px !important;
+    text-decoration: none ;
+    color: rgb(236, 240, 10)!important ;
+    margin-right: 10px ;
     
 }
 
 header {
-    display: flex !important;
-    min-height: 70px !important;
-    background-color: rgb(0, 0, 0) !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    padding: 10px !important;
+    display: flex ;
+    min-height: 70px ;
+    background-color: rgb(0, 0, 0) ;
+    align-items: center ;
+    justify-content: space-between ;
+    padding: 10px ;
+    border-style: inset;
+    border-width: 10px;
+    border-color: #f4dc03;
 
 }
 
 .logo {
-    display: flex !important;
-    align-items: center !important;
+    display: flex ;
+    align-items: center ;
 }
 
 .logo img {
-    height: 90px !important;
-    margin-right: 10px !important;
+    height: 90px ;
+    margin-right: 10px t;
 }
 
 nav a {
-    font-weight: 600px !important;
-    padding-right: 10px !important;
+    font-weight: 600px ;
+    padding-right: 10px ;
     
 
 }
@@ -52,20 +56,18 @@ nav{
 }
 
 /*Customizacion de la "page" "index"*/
-.neon {
-    font-size: 30px;
-    font-weight: 100;
+.custom-title-neon h1 {
     color: #fff;
-    text-shadow: 0 0 5px #f4dc03,
-        0 0 25px #f4d003,
+    text-shadow: 0 0 5px #c7b406,
+        0 0 25px #f4f003,
         0 0 50px #f4dc03,
         0 0 100px #f4d003;
     letter-spacing: 5px;
     cursor: auto;
     text-transform: uppercase;
     margin-bottom: 100px;
-    margin-right: 50px;
-    margin-left: 400px;
+    margin-top: 50px;
+    font-size: 100px;
 }
 
 .texto1 {
@@ -74,12 +76,8 @@ nav{
     margin: 50px;
     margin-top: 10px;
     color: rgb(255, 255, 255);
-    margin-left: 400px;
-    margin-right: 10px;
     margin-bottom: 10px;
-    font-size: 25px;
     border-width: 15px;
-    border-style: ridge;
     border-color: rgb(251, 255, 0);
     width: 60%;
     box-sizing: border-box;
@@ -87,8 +85,12 @@ nav{
     border-radius: 120px;
 }
 
+.texto-bienvenida {
+    font-size: 35px;
+}
 
-/*Customizacion de la "PAGE" "Nuestras empanadas"*/
+
+/*Customizacion de la "pages" "nuestras-empanadas"*/
 menu {
     padding: 0px;
     margin: 0px;
@@ -121,8 +123,6 @@ menu {
     border-radius: 120px;
     display: flex;
     flex-flow: column;
-    border-style: ridge;
-    border-color: yellow;
     border-width: 15px;
     font-size: 20px;
 }
@@ -140,9 +140,7 @@ menu {
     text-transform: uppercase;
     margin-bottom: 100px;
     margin-left: 550px;
-
 }
-
 
 .wrap {
     max-width: 1200px;
@@ -158,11 +156,11 @@ menu {
     border-radius: 120px;
     display: flex;
     flex-flow: column;
-    border-style: ridge;
-    border-color: rgb(255, 255, 0);
-    border-width: 10px;
     margin-bottom: 30px;
+}
 
+.menu-empanadas p {
+    font-size: 30px;
 }
 
 .columna-1 {
@@ -179,9 +177,113 @@ menu {
     margin-left: 20px;
     margin-right: 20px;
     font-size: 40px;
+    color: #f4f003;
+}
+/*Customizacion de la "pages" "hace-tus-pedidos"*/
+.titulo-selector{
+    text-align: center;
+    color: #fcfbf8;
+  }
+  .selector-de-empandas{
+    background-color: #00000081;
+  }
+
+  .empanada-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .titulo-selector1{
+    color: #eeeaea;
+  }
+  .titulo-selector3{
+    color: #eeeaea;
+  }
+
+  .empanada-card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .empanada-card .img-selector {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .empanada-card .titulo-selector1 {
+    margin-top: 10px;
+  }
+
+  .empanada-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .cart {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .cart .titulo-selector3 {
+    margin-bottom: 10px;
+  }
+
+  .cart-items {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    color: #eeeaea;
+  }
+
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .cart-item .img-selector {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+/*Customizacion de la "pages" "un-poco-de-contexto"*/
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #00000085;
+    border-radius: 10%;
 }
 
-/*Customizacion de la "page" "dano-tu-opinion"*/
+.contexto {
+    text-align: center;
+    color: #eeeaea;
+}
+
+.contexto-texto p {
+    text-align: justify;
+    color: #f8f8f8;
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+/*Customizacion de la "pages" "danos-tu-opinion"*/
+
 .comentario-1 {
     margin: 20px;
     margin-left: 400px;
@@ -198,13 +300,14 @@ menu {
     line-height: 30px;
     border: 1px solid #4b65d1;
     margin-bottom: 20px;
+    
 
 
 }
 
 .form_comentarios .btn {
     background: #4b65d1;
-    border-radius: 0;
+    border-radius:120%;
     color: #fff;
     margin-bottom: 20px;
 }
@@ -236,6 +339,7 @@ menu {
 }
 .media{
     background-color: #f7f7f798;
+    border-radius: 5%;
 }
 .media .ComentarioJM{
     margin-top: 10px;
@@ -249,6 +353,8 @@ menu {
     margin-left: 20px;
 
 }
+
+
 /*Footer/Redes*/
 
 footer {
@@ -297,6 +403,7 @@ footer li {
     margin-bottom: 10px;
 }
 
+/*Apartado para adaptar la pagina a ciertos dispositivos*/
 
 @media (max-width:768px) {
     header {
@@ -316,11 +423,11 @@ footer li {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .neon {
+    .custom-title-neon h1 {
         padding: 10px 0px;
         margin-left: 10px;
         margin-right: 10px;
-        font-size: 26px;
+        font-size: 66px;
     }
 
     .texto1 {
@@ -377,10 +484,8 @@ footer li {
         margin-right: 20px;
         font-size: 40px;
     }
-    .comentario-1{
-        margin-left: 0px;
-        margin-right: 0px;
-    }
+
+
 
 }
 
@@ -403,11 +508,11 @@ footer li {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .neon {
+    .custom-title-neon h1 {
         padding: 10px 0px;
         margin-left: 10px;
         margin-right: 10px;
-        font-size: 26px;
+        font-size: 46px;
     }
 
     .texto1 {
@@ -457,10 +562,8 @@ footer li {
         margin-right: 30px;
 
     }
-    .comentario-1{
-        margin-right: 0;
-        margin-left: 0;    
-    }
+
+
 
 }
 
@@ -488,11 +591,11 @@ footer li {
         margin-left: 20px;
     }
 
-    .neon {
+    .custom-title-neon h1 {
         padding: 10px 0px;
         margin-left: 10px;
         margin-right: 10px;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .texto1 {
@@ -536,10 +639,5 @@ footer li {
         margin-right: 30px;
 
     }
-    .comentario-1{
-        margin-right: 0;
-        margin-left: 0;    
-    }
-    
 
 }

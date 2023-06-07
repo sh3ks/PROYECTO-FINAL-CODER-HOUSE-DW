@@ -19,14 +19,44 @@
             </div>
             <nav>
                 <a href="/pages/hace-tus-pedidos.html" class="nav-link">Hacé tus pedidos</a>
-                <a href="/pages/que-es-lo-que-ofrecemos.html" class="nav-link">Un poco de contexto...</a>
+                <a href="/pages/un-poco-de-contexto.html" class="nav-link">Un poco de contexto...</a>
                 <a href="/pages/danos-tu-opinion.html" class="nav-link">Danos tu opinion</a>
             </nav>
         </header>
+        <div class="selector-de-empandas">
+            <h1 class="titulo-selector">Selección de Empanadas</h1>
+            <div class="empanada-list">
+                <div class="empanada-card">
+                    <h3 class="titulo-selector1">Empanada 1</h3>
+                    <button onclick="addToCart('Empanada 1')">Agregar al carrito</button>
+                </div>
 
-        <h2 class="Pedí-lo-que-quieras-y-cuantas-quieras">Pedí lo que quieras y cuantas quieras</h2>
-        <p>Hacé acá tu pedidos de manera rapida y eficiente
-            para tenerlas en tu mesa los antes posible</p>
+                <div class="empanada-card">
+                    <h3 class="titulo-selector1">Empanada 2</h3>
+                    <button onclick="addToCart('Empanada 2')">Agregar al carrito</button>
+                </div>
+
+                <!-- Agrega más empanadas aquí -->
+
+            </div>
+
+            <div class="cart">
+                <h2 class="titulo-selector3">Carrito de Compras</h2>
+                <ul class="cart-items" id="cartItems">
+
+                </ul>
+            </div>
+
+            <script>
+                // Función para agregar elementos al carrito
+                function addToCart(empanadaName) {
+                    var cartItems = document.getElementById('cartItems');
+                    var li = document.createElement('li');
+                    li.textContent = empanadaName;
+                    cartItems.appendChild(li);
+                }
+            </script>
+        </div>
 
         <footer class="footer1">
             <div class="wrap-footer">
