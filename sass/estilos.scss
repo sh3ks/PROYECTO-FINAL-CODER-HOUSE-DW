@@ -203,7 +203,7 @@ menu {
 }
 
 .titulo-selector5 {
-    color: #eeeaea;
+    color: #f1f1f1;
     margin-top: 30px;
     margin-bottom: 40px;
     margin-left: 500px;
@@ -239,7 +239,7 @@ menu {
 }
 
 .empanada-card button {
-    background-color: #43b647;
+    background-color: #67b643;
     color: rgb(245, 244, 244);
     border: none;
     padding: 5px 10px;
@@ -256,30 +256,19 @@ menu {
     text-align: center;
     color: #eeeaea;
     margin-top: 40px;
+}
+.cart .titulo-selector3 {
+    margin-bottom: 10px;
+}
 
-    .cart .titulo-selector3 {
-        margin-bottom: 10px;
-    }
-
-    .cart-items {
-        list-style-type: none;
-        padding: 0;
-        text-align: left;
-        color: #eeeaea;
-        display: flex;
-        align-items: center;
-        margin-bottom: 10px;
-    }
-
-    .cart-item .img-selector {
-        width: 40px;
-        height: 40px;
-        object-fit: cover;
-        border-radius: 50%;
-        margin-right: 10px;
-    }
-
-
+.cart-items {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    color: #fdfafa;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 /*Customizacion de la "pages" "un-poco-de-contexto"*/

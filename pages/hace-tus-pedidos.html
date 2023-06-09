@@ -8,7 +8,7 @@
     <!--Librería de bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
-    
+
     <title>Hacé tus pedidos</title>
 </head>
 
@@ -16,7 +16,7 @@
     <main>
         <!--Encabezado-->
         <header>
-            <div class="logo">
+            <div class="logo" id="Arriba">
                 <a href="../index.html" class="nav-link"><img src="../assets/imagenes/empanadas.gif" alt=""></a>
             </div>
             <nav>
@@ -28,7 +28,10 @@
         <div class="selector-de-empandas">
             <h1 class="titulo-selector">Selección de Empanadas</h1>
             <!-- inicio del selector de Empanadas comunes-->
-            <h2 class="titulo-selector4"> Empanadas</h2>
+            <h2 class="titulo-selector4" id="s1"> Empanadas comunes</h2>
+            <ul>
+                <li><a href="#cc1" class="Carrito">Ir al carrito de compras</a></li>
+            </ul>
             <div class="empanada-list">
                 <div class="empanada-card">
                     <h3 class="titulo-selector1">Empanada 1</h3>
@@ -71,7 +74,10 @@
                     <button onclick="addToCart('Empanada 11')">Agregar al carrito</button>
                 </div>
                 <!-- inicio del selector de Empanadas vegetarianas-->
-                <h2 class="titulo-selector5"> Empanadas vegetarianas</h2>
+                <h2 class="titulo-selector5" id="s2"> Empanadas vegetarianas</h2>
+                <ul>
+                    <li><a href="#cc1" class="Carrito">Ir al carrito de compras</a></li>
+                </ul>
                 <div class="empanada-list">
                     <div class="empanada-card">
                         <h3 class="titulo-selector1">Empanada 1 vegetariana</h3>
@@ -98,13 +104,16 @@
                         <button onclick="addToCart('Empanada 7 vegetariana')">Agregar al carrito</button>
                     </div>
                     <!-- inicio del selector de Empanadas sin sal-->
-                    <h2 class="titulo-selector6">Empanadas sin sal</h2>
+
+                    <h2 class="titulo-selector6" id="s3">Empanadas sin sal</h2>
+                    <ul>
+                        <li><a href="#cc1" class="Carrito">Ir al carrito de compras</a></li>
+                    </ul>
                     <div class="empanada-list">
                         <div class="empanada-card">
                             <h3 class="titulo-selector1">Empanada 1 sin sal</h3>
                             <button onclick="addToCart('Empanada 1 sin sal')">Agregar al carrito</button>
                         </div>
-
                         <div class="empanada-card">
                             <h3 class="titulo-selector1">Empanada 2 sin sal</h3>
                             <button onclick="addToCart('Empanada 2 sin sal')">Agregar al carrito</button>
@@ -130,10 +139,17 @@
                         <!-- Agrega más empanadas aquí -->
 
                     </div>
-
-                    <div class="cart">
+                    <div class="cart" id="cc1">
                         <h2 class="titulo-selector3">Carrito de Compras</h2>
                         <ul class="cart-items" id="cartItems">
+                        </ul>
+                    </div>
+                    <div class="Arriba">
+                        <ul>
+                            <li><a href="#s1">Empanadas comunes</a></li>
+                            <li><a href="#s2">Empanadas vegetarianas</a></li>
+                            <li><a href="#s3">Empanadas sin sal</a></li>
+                            <li><a href="#Arriba">Arriba</a></li>
                         </ul>
                     </div>
 
@@ -152,7 +168,8 @@
                     <div class="wrap-footer">
                         <div class="Telemento-footerE">
                             <h3 class="main-a">www.EmpanadasFonseca.com.ar</h3>
-                            <p>Nuestra web de servicio de empanadas está abierta al público, desde hoy en adelante hasta próximo
+                            <p>Nuestra web de servicio de empanadas está abierta al público, desde hoy en adelante hasta
+                                próximo
                                 aviso
                             </p>
                         </div>
