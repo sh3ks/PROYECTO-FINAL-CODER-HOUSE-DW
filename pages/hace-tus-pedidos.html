@@ -147,7 +147,6 @@
                             <button onclick="addToCart('Tomate,queso y albahaca sin sal')">Agregar al carrito</button>
                         </div>
 
-
                         <!-- Agrega más empanadas aquí -->
 
                     </div>
@@ -171,9 +170,25 @@
                             var cartItems = document.getElementById('cartItems');
                             var li = document.createElement('li');
                             li.textContent = empanadaName;
+                    
+                            // Crear botón de eliminación con una cruz
+                            var removeButton = document.createElement('button');
+                            removeButton.innerHTML = '&#10005;'; // Utilizar el símbolo de la cruz (✕) como contenido del botón
+                            removeButton.classList.add('remove-button'); // Agregar una clase al botón para aplicar estilos si es necesario
+                            removeButton.addEventListener('click', function() {
+                                li.remove(); // Eliminar el elemento de la lista al hacer clic en el botón
+                            });
+                    
+                            li.appendChild(removeButton); // Agregar el botón de eliminación al elemento de lista
                             cartItems.appendChild(li);
                         }
                     </script>
+                    
+                    
+
+
+
+
                 </div>
                 <!-- Inicio del footer-->
                 <footer class="footer1">
