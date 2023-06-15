@@ -185,6 +185,7 @@ menu {
 
 .titulo-selector1 {
   color: #eeeaea;
+  font-size: 15px;
 }
 
 .titulo-selector4 {
@@ -290,6 +291,20 @@ menu {
 }
 
 .Carrito {
+  text-decoration: none;
+  background-color: #ffee00;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 600px;
+}
+.Carrito1 {
   text-decoration: none;
   background-color: #ffee00;
   color: rgb(0, 0, 0);
@@ -549,8 +564,9 @@ footer footer li {
 
   .titulo-selector {
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 20px;
   }
+  
 
   .titulo-selector4 {
     margin: 0;
@@ -578,12 +594,16 @@ footer footer li {
   }
 
   .empanada-list {
-    width: 100%;
+    width: 95%;
   }
 
   .Carrito {
-    width: 95%;
+    width: 90%;
   }
+  .Carrito1 {
+    width: 90%;
+  }
+  
 
 }
 
@@ -693,6 +713,12 @@ footer footer li {
 
   .empanada-list {
     width: 100%;
+  }
+  .Carrito1 {
+    width: 60%;
+  }
+  .Carrito {
+    width: 95%;
   }
 }
 
@@ -804,6 +830,12 @@ footer footer li {
 
   .empanada-list {
     width: 100%;
+  }
+  .Carrito1 {
+    width: 35%;
+  }
+  .Carrito {
+    width: 85%;
   }
 }
 
