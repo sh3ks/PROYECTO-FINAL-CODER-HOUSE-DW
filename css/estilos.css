@@ -603,9 +603,13 @@ footer footer li {
   .Carrito1 {
     width: 90%;
   }
+  .btn{
+    margin-left: 600px;
+  }
+}
   
 
-}
+
 
 @media (max-width: 480px) {
   header {
@@ -719,6 +723,9 @@ footer footer li {
   }
   .Carrito {
     width: 95%;
+  }
+  .btn{
+    margin-left: 310px;
   }
 }
 
@@ -836,6 +843,9 @@ footer footer li {
   }
   .Carrito {
     width: 85%;
+  }
+  .btn{
+    margin-left: 150px;
   }
 }
 
