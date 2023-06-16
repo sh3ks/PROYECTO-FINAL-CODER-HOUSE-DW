@@ -56,6 +56,9 @@ nav a:hover {
 nav {
   display: flex;
 }
+.cabezera{
+  gap: 10px;
+}
 
 /*Customizacion de la "page" "index"*/
 /*Titulo "EMPANADAS FONSECA"*/
@@ -345,7 +348,14 @@ menu {
 /*Customizacion de la "pages" "danos-tu-opinion"*/
 .Comentarios-1 {
   text-align: center;
-  color: #eeeaea;
+  color: #fff;
+  text-shadow: 0 0 5px #c7b406, 0 0 25px #f4f003, 0 0 50px #f4dc03, 0 0 100px #f4d003;
+  letter-spacing: 5px;
+  cursor: auto;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  font-size: 60px;
 }
 .Deja-tu-comentario{
   color: #eeeaea;
