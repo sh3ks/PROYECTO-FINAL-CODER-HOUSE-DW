@@ -17,6 +17,7 @@ body {
   text-decoration: none;
   color: rgb(236, 240, 10) !important;
   margin-right: 10px;
+  font-size: 20px;
 }
 
 /*Clase  para personalizar el diseño del encabezado*/
@@ -56,7 +57,8 @@ nav a:hover {
 nav {
   display: flex;
 }
-.cabezera{
+
+.cabezera {
   gap: 10px;
 }
 
@@ -148,7 +150,6 @@ menu {
   border-radius: 120px;
   display: flex;
   flex-flow: column;
-  margin-bottom: 30px;
 }
 
 .menu-empanadas p {
@@ -307,6 +308,7 @@ menu {
   cursor: pointer;
   margin-right: 600px;
 }
+
 .Carrito1 {
   text-decoration: none;
   background-color: #ffee00;
@@ -357,24 +359,29 @@ menu {
   margin-top: 50px;
   font-size: 60px;
 }
-.Deja-tu-comentario{
+
+.Deja-tu-comentario {
   color: #eeeaea;
 }
+
 .comment {
   margin-bottom: 20px;
   padding: 10px;
   border: 1px solid #f0e009;
   border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.comment .name{
+.comment .name {
   font-weight: bold;
   color: #eeeaea;
 }
-.comment .date{
-  color: #eeeaea;
-}
 
+.comment .date {
+  color: #fcfcfc;
+}
 
 .comment .content {
   margin-top: 10px;
@@ -386,6 +393,8 @@ menu {
   border: 1px solid #fffb00;
   border-radius: 5px;
   padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .comment-form textarea {
@@ -403,6 +412,7 @@ menu {
   border-radius: 3px;
   cursor: pointer;
 }
+
 
 /*Footer/Redes*/
 footer {
@@ -511,6 +521,10 @@ footer footer li {
     font-size: 80px;
   }
 
+  .menu-empanadas p {
+    font-size: 17px;
+  }
+
   .Menu1 {
     padding: 10px;
     margin-left: 240px;
@@ -553,7 +567,7 @@ footer footer li {
     margin-top: 30px;
     font-size: 20px;
   }
-  
+
 
   .titulo-selector4 {
     margin: 0;
@@ -587,14 +601,31 @@ footer footer li {
   .Carrito {
     width: 90%;
   }
+
   .Carrito1 {
     width: 90%;
   }
-  .btn{
+
+  .btn {
     margin-left: 600px;
   }
+
+  .Comentarios-1 {
+    font-size: 70px;
+  }
+
+  .comment-form {
+    width: 90%;
+    margin-left: 35px;
+  }
+
+  .comment {
+    width: 90%;
+    margin-left: 35px;
+    margin-top: 20px;
+  }
 }
-  
+
 
 
 
@@ -705,14 +736,32 @@ footer footer li {
   .empanada-list {
     width: 100%;
   }
+
   .Carrito1 {
     width: 60%;
   }
+
   .Carrito {
     width: 95%;
   }
-  .btn{
+
+  .btn {
     margin-left: 310px;
+  }
+
+  .Comentarios-1 {
+    font-size: 50px;
+  }
+
+  .comment-form {
+    width: 90%;
+    margin-left: 25px;
+  }
+
+  .comment {
+    width: 90%;
+    margin-left: 25px;
+    margin-top: 20px;
   }
 }
 
@@ -825,14 +874,32 @@ footer footer li {
   .empanada-list {
     width: 100%;
   }
+
   .Carrito1 {
     width: 35%;
   }
+
   .Carrito {
     width: 85%;
   }
-  .btn{
+
+  .btn {
     margin-left: 150px;
+  }
+
+  .Comentarios-1 {
+    font-size: 30px;
+  }
+
+  .comment-form {
+    width: 90%;
+    margin-left: 15px;
+  }
+
+  .comment {
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 20px;
   }
 }
 
